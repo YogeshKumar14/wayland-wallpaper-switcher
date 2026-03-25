@@ -1,0 +1,55 @@
+/* Wallust Template for Wofi */
+* {
+    border: none;
+    outline: none;
+    font-family: "JetBrainsMono";
+    font-weight: 500;
+    color: {{color5}}; /* Replaced pink with a vibrant accent color */
+    overflow: hidden;
+}
+
+#window {
+    border: 2px solid {{color12}}; /* Border matches accent */
+    /* Wallust can also update your background path if you use the variable {wallpaper} 
+	background-image: url("file:///home/yogesh/.config/wofi/background.png");*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#inner-box {
+    overflow: hidden;
+}
+
+#outer-box {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#text {
+    padding-left: 10px;
+}
+
+#input {
+    color: {{color5}}; /* Updated from pink */
+    background: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+#input:focus {
+    box-shadow: none;
+}
+
+#entry:selected {
+    background: {{background}};
+}
+
+#text:selected {
+    color: {{color5}}; /* Slight variation for selected text */
+}
