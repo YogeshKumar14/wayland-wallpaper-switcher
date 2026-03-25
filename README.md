@@ -1,5 +1,9 @@
 # Wayland Wallpaper Switcher (WWS)
 Wayland Wallpaper Switcher is a streamlined utility designed for Wayland-based Linux systems. It leverages [awww](https://codeberg.org/LGFae/awww) to handle wallpaper transitions and wallust to dynamically generate system-wide color themes based on your active wallpaper, all accessible via a convenient Rofi menu.
+<img width="1366" height="768" alt="2026-03-25-210953_hyprshot" src="https://github.com/user-attachments/assets/05442f95-0bff-4686-baef-602d2d458745" />
+<img width="1366" height="768" alt="2026-03-25-210958_hyprshot" src="https://github.com/user-attachments/assets/bd453ebe-f616-4ba3-af37-39c14092b007" />
+<img width="1366" height="768" alt="2026-03-25-211207_hyprshot" src="https://github.com/user-attachments/assets/a7aa1696-66e6-4543-b6d2-f45c62c010ba" />
+
 
  ## 🚀Features
  - **Dynamic Theming:** Automatically updates system colors using `wallust`.
