@@ -7,7 +7,7 @@ wallDIR="$HOME/Pictures/Wallpapers"
 focused_monitor=$(hyprctl monitors | awk '/^Monitor/{name=$2} /focused: yes/{print name}')
 
 
-# swww transition config
+# awww transition config
 FPS=60
 TYPE="grow"
 DURATION=2
@@ -46,7 +46,7 @@ menu() {
   done
 }
 
-# Initiate swww if not running
+# Initiate awww if not running
 awww query || awww-daemon --format xrgb
 
 main() {
